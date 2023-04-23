@@ -2,7 +2,7 @@
 
 Автоматизированное ui-тестирование https://b2c.passport.rt.ru/
 
-Файл с Тестированием требований, Тест-кейсам и Баг-репортами https://docs.google.com/spreadsheets/d/1xGqDuOkohyhbi9e-0vDX15dbj3E_O8AOANhxRZauLUA/edit?usp=sharing
+Файл с Тестированием требований, Тест-кейсам и Баг-репортами https://docs.google.com/spreadsheets/d/1VerOfnpE8j6DwdMxkG7NjNaIvu780CFWNYYXKBu7Clc/edit?usp=sharing
 В папке pages в файле base_page.py находится конструктор webdriver и общие для всех тестируемых страниц методы.
 
 В папке pages в файлах auth_page.py, change_pass_page.py, reg_page.py находятся методы проверок: файл auth_page.py содержит методы проверок формы авторизации; файл change_pass_page.py содержит методы проверок формы восстановления пароля; файл reg_page.py содержит методы проверок формы регистрации.
@@ -18,5 +18,3 @@
 В корне проекта в файле pytest.ini зарегистрированы метки маркировок тестов.
 
 В корне проекта в файле requirements.py описаны используемые библиотеки.
-
-В корне проекта файл драйвера chromedriver.exe
